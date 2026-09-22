@@ -1,0 +1,9 @@
+langgraph
+langgraph-cli[inmem]
+langchain-core
+langchain-openai
+langchain-community
+tavily-python
+pydantic>=2
+typing-extensions
+python-dotenv

@@ -1,0 +1,2 @@
+{"timestamp": "2026-09-16T23:10:18.644926", "config": {"chunk_size": 1000, "chunk_overlap": 200}, "note": "increased overlap to keep proration rule + leave-days together", "retrieval_hit_rate": 0.75, "correctness_rate": 0.8333333333333334, "groundedness_rate": 0.9666666666666667}
+{"timestamp": "2026-09-18T21:34:35.258988", "config": {"chunk_size": 1500, "chunk_overlap": 300}, "note": "try a smaller chunk size", "retrieval_hit_rate": 0.8571428571428571, "correctness_rate": 0.8666666666666667, "groundedness_rate": 0.9333333333333333}

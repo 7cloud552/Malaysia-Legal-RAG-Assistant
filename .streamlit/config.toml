@@ -1,0 +1,8 @@
+[theme]
+base = "light"
+primaryColor = "#96762E"
+backgroundColor = "#EAE3D0"
+secondaryBackgroundColor = "#F5F1E6"
+textColor = "#1C2B44"
+font = "Public Sans:https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&display=swap, sans-serif"
+headingFont = "Spectral:https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700&display=swap, serif"
