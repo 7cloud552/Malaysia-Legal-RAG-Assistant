@@ -26,7 +26,7 @@ vector_store = PGVectorStore.create_sync(
 )
 retriever = vector_store.as_retriever(search_kwargs={"k": 5})
 
-llm = ChatOpenAI(model="gpt-5.6-luna")
+llm = ChatOpenAI(model="gpt-6-luna")
 
 class GeneratedQueries(BaseModel):
     queries: list[str] = Field(description="Search queries related to the question")
