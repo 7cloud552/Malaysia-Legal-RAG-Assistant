@@ -7,8 +7,12 @@ from langchain_postgres import PGEngine, PGVectorStore
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pydantic import BaseModel, Field
+import os
+from pathlib import Path    
+from dotenv import load_dotenv 
 
-CONNECTION_STRING = 'postgresql+psycopg://langchain:langchain@localhost:6024/langchain'
+load_dotenv(Path(__file__).resolve().parent / ".env")
+CONNECTION_STRING = os.getenv("CONNECTION_STRING")
 TABLE_NAME = "rag_chunk_800_240"
 VECTOR_SIZE = 1536 # match with text-embedding-3-small
 
