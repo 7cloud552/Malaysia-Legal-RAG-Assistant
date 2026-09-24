@@ -1,9 +1,10 @@
 langgraph
-langgraph-cli[inmem]
 langchain-core
 langchain-openai
 langchain-community
-tavily-python
+langchain-postgres
+psycopg[binary]
+pandas
 pydantic>=2
 typing-extensions
 python-dotenv

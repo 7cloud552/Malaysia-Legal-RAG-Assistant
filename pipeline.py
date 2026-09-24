@@ -1,11 +1,9 @@
 from typing import TypedDict
 
-from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader, TextLoader
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langgraph.graph import StateGraph, START, END
 from langchain_postgres import PGEngine, PGVectorStore
 from langchain_core.documents import Document
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 from pydantic import BaseModel, Field
 import os
 from pathlib import Path    
