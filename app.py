@@ -250,6 +250,8 @@ with eval_tab:
             st.markdown(
                 "- **Retrieval hit** checks whether the correct section was retrieved, matched against "
                 "each answer's cited section marker.\n"
+                "- **Correctness** measures whether the generated answer matched the referenced answer.\n"
+                "- **Groundedness** measures whether the answer was actually supported by the retrieved document.\n"
                 "- **Correctness** and **groundedness** are graded by an LLM-as-judge comparing the "
                 "generated answer against the retrieved context and the reference answer.\n"
                 "- One question — whether a First Schedule exclusion overrides a general annual-leave "
